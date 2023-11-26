@@ -1,0 +1,107 @@
+@media (max-width:575px) {
+    .container{
+        padding: 0 30px;
+    }
+    .top_header {
+        display: none;
+    }
+    .mobile_logo {
+        display: block;
+        width: 80%;
+    }
+    header{
+       display: none;
+    }
+    .header_phone{
+        display: block;
+    }
+    .mobile_res{
+        display: block;
+    }
+    .navbar-collapse {
+       background-color: #ffb600;
+       margin-top: 10px;
+       padding: 20px;
+    }
+    .left_header {
+        background: #fff;
+    }
+    .navbar-collapse .btn_quote{
+        background-color: #fff;
+        color: black;
+    }
+    .header_contact{
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner_section_content h1 {
+        font-size: 40px;
+        padding-top: 9px;
+    }
+    .btn_service{
+        display: block;
+    }
+    .btn_contact {
+        display: none;
+    }
+    .banner_section_content_1 h1 {
+        font-size: 35px;
+    }
+    .banner_section_content_2 h1 {
+        font-size: 35px;
+    }
+    .banner_section_content_2 h3 {
+        font-size: 30px;
+    }
+    .btn_service_2 {
+        display: block;
+        margin: 20px 0;
+    }
+    .banner_section_content_2 {
+        text-align: center;
+    }
+    .request_section {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .request_section h3 {
+        font-size: 19px;
+    }
+    .request_section a {
+        width: 100%;
+    }
+    .about_section_content h3 {
+        font-size: 26px;
+    }
+    .counter_section_content h1 {
+        font-size: 40px;
+    }
+    .counter_section_content {
+        margin: 10px 0;
+    }
+    .construction_section_content h3 {
+        font-size: 36px;
+    }
+    .test h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .can_help h3 {
+        font-size: 24px;
+    }
+    .input_section_content p {
+        display: none;
+    }
+    .input_section_content h5 {
+        display: none;
+    }
+    .input_sction_sing input {
+        margin: 20px 0;
+    }
+    .newsletter_section::before {
+        opacity: 0;
+    }
+    .footer_section_2 a {
+        font-size: 13px;
+    }
+}
